@@ -11,4 +11,4 @@ Data fetched from the IEX Cloud API.
 
 Your can only search for the stock symbol of a company (for example: 'AAPL', not 'Apple')
 
-<a href="">Here is a preview of the App</a>
+<a href="https://stock-info.netlify.com/">Here is a preview of the App</a>
