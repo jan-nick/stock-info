@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600|Roboto:300,400,500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body * {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body .app {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #333;
+}
+
+body .app .app-container {
+  margin: auto;
+  padding: 3rem;
+  width: 500px;
+  max-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body .app .app-container h1 {
+  font-size: 2.6rem;
+  font-weight: 300;
+}
+
+body .app .app-container .search-stock input {
+  color: #333;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+body .app .app-container .search-stock .form-submit {
+  margin-top: 3vh;
+  width: 100%;
+  background: #ffc09a;
+  -webkit-transition: 300ms all ease;
+  transition: 300ms all ease;
+}
+
+body .app .app-container .search-stock .form-submit:hover {
+  background: #ff914d;
+  color: #fff;
+}
+
+body .app .app-container .stock-details {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+body .app .app-container .stock-details .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .app .app-container .stock-details .head p {
+  color: #aaa;
+}
+
+body .app .app-container .stock-details h2 {
+  margin-top: -20px;
+  color: #aaa;
+}
+
+body .app .app-container .stock-details .fin-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .app .app-container .stock-details .fin-data p {
+  font-size: 1.4rem;
+}
+
+body .app .app-container .stock-details .fin-data .plus {
+  color: #9ee281;
+}
+
+body .app .app-container .stock-details .fin-data .minus {
+  color: #ff8a8a;
+}
+/*# sourceMappingURL=style.css.map */
